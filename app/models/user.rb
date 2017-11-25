@@ -3,4 +3,5 @@
 class User < ApplicationRecord
   include Authentication
   has_many :meals
+  has_many :ingredients
 end
